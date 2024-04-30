@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "trinketlantern:carry_lantern",
+    "trinketlantern:carry_soul_lantern",
+    "trinketlantern:carry_lantern_waterproof",
+    "trinketlantern:carry_soul_lantern_waterproof"
+  ]
+}

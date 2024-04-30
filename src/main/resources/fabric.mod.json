@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "trinketlantern",
+	"version": "${version}",
+	"name": "Wearable lanterns",
+	"description": "A vanilla friendly and open-source mod that intends to make the lanterns more useful when adventuring or caving.\n\nIf you encounter any bugs, then feel free to open an issue on the github repo.",
+	"authors": [
+		"tsuki",
+		"Absent Abigail"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/trinketlantern/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"abby.trinketlantern.TrinketLantern"
+		],
+		"client": [
+			"abby.trinketlantern.TrinketLanternClient"
+		],
+		"fabric-datagen": [
+			"abby.trinketlantern.TrinketLanternDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"lambdynlights": "2.1.0",
+		"radiantgear": "2.1.0"
+	}
+}
