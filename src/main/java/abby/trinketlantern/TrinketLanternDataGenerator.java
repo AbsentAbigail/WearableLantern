@@ -23,6 +23,7 @@ public class TrinketLanternDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(ModelGenerator::new);
 		pack.addProvider(LanguageGenerator::new);
+		pack.addProvider(RecipeGenerator::new);
 	}
 
 	private class ModelGenerator extends FabricModelProvider {
@@ -63,8 +64,8 @@ public class TrinketLanternDataGenerator implements DataGeneratorEntrypoint {
 		}
 	}
 
-	private static class MyRecipeGenerator extends FabricRecipeProvider {
-		private MyRecipeGenerator(FabricDataOutput generator) {
+	private static class RecipeGenerator extends FabricRecipeProvider {
+		private RecipeGenerator(FabricDataOutput generator) {
 			super(generator);
 		}
 

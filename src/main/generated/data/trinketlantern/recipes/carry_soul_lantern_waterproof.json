@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "item": "minecraft:glass_pane"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "t": {
+      "item": "trinketlantern:carry_soul_lantern"
+    }
+  },
+  "pattern": [
+    "igi",
+    "gtg",
+    "igi"
+  ],
+  "result": {
+    "item": "trinketlantern:carry_soul_lantern_waterproof"
+  },
+  "show_notification": true
+}
