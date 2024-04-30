@@ -95,9 +95,10 @@ public class TrinketLanternDataGenerator implements DataGeneratorEntrypoint {
 					.offerTo(exporter);
 
 			ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, TrinketLantern.CARRY_LANTERN_WATERPROOF)
-					.pattern(" g ")
+					.pattern("igi")
 					.pattern("gtg")
-					.pattern(" g ")
+					.pattern("igi")
+					.input('i', Items.IRON_NUGGET)
 					.input('g', Blocks.GLASS_PANE)
 					.input('t', TrinketLantern.CARRY_LANTERN)
 					.criterion(FabricRecipeProvider.hasItem(TrinketLantern.CARRY_LANTERN),
@@ -106,9 +107,10 @@ public class TrinketLanternDataGenerator implements DataGeneratorEntrypoint {
 
 
 			ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, TrinketLantern.CARRY_SOUL_LANTERN_WATERPROOF)
-					.pattern(" g ")
+					.pattern("igi")
 					.pattern("gtg")
-					.pattern(" g ")
+					.pattern("igi")
+					.input('i', Items.IRON_NUGGET)
 					.input('g', Blocks.GLASS_PANE)
 					.input('t', TrinketLantern.CARRY_SOUL_LANTERN)
 					.criterion(FabricRecipeProvider.hasItem(TrinketLantern.CARRY_SOUL_LANTERN),
